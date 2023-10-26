@@ -1,9 +1,9 @@
-# BIDARA : Bio-Inspired Design and Research Assistant
+# ARIA : Bio-Inspired Design and Research Assistant
 
-BIDARA is a bot that utilizes GPT-4 to answer questions.
+ARIA is a bot that utilizes GPT-4 to answer questions.
 Each question you ask will be redirected to Chat-GPT, and is part of a conversation with Chat-GPT.
 
-### Use BIDARA in your own ChatGPT session
+### Use ARIA in your own ChatGPT session
 
 If you have access to OpenAI's API Playground or ChatGPT, you can enter this prompt into the "System Prompt" area.
 
@@ -113,9 +113,9 @@ SEMANTIC_SCHOLAR_API_KEY = xxx
 
 1. Login to AWS console
 2. Switch to us-east-2 (Ohio)
-3. Type EC2 in the search bar and enter. Select the Instances(running) option. Click on the instance ID for BIDARA.
+3. Type EC2 in the search bar and enter. Select the Instances(running) option. Click on the instance ID for ARIA.
 4. Choose 'Connect'. 
-5. Navigate to 'Session manager' tab and connect to BIDARA EC2 instance.
+5. Navigate to 'Session manager' tab and connect to ARIA EC2 instance.
 6. This will open a terminal (session manager) in a separate window.
 7. Run these commands in the terminal one-by-one to stop the discord bot, pull changes from github, and restart the bot.
 ```
